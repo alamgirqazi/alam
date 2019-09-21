@@ -1,10 +1,8 @@
 'use strict';
-const path = require('path');
 const React = require('react');
 const {Box, Text, Color} = require('ink');
 const SelectInput = require('ink-select-input').default;
 const open = require('open');
-const terminalImage = require('terminal-image');
 
 const handleSelect = item => {
 	if (item.url) {
@@ -45,16 +43,7 @@ const items = createItems([
 		label: 'Tech Blog',
 		url: 'https://alamgirqazi.github.io/tech-blog'
 	},
-	// {
-	// 	label: 'Random Blabberings',
-	// 	url: 'https://alamgirqazi.github.io/thoughts'
-	// },
-	// {
-	// 	label: 'Profile Pic!',
-	// 	async action() {
-	// 		console.log(await terminalImage.file(path.join(__dirname, 'alam-avatar.png')));
-	// 	}
-	// },
+
 	{
 		label: 'Quit',
 		action() {
