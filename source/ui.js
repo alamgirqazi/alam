@@ -43,6 +43,10 @@ const items = createItems([
 		label: 'Tech Blog',
 		url: 'https://alamgirqazi.github.io/tech-blog'
 	},
+	{
+		label: 'Resume',
+		url: 'https://alamgirqazi.github.io/resume'
+	},
 
 	{
 		label: 'Quit',
