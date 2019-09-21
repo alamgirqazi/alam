@@ -1,19 +1,19 @@
 {
 	"name": "alam",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "The Alam CLI",
 	"license": "MIT",
 	"repository": "alamgirqazi/alam",
 	"author": {
 		"name": "Alamgir Munir Qazi",
 		"email": "alamgirmunirqazi@gmail.com",
-		"url": "alamgirqazi.github.io"
+		"url": "https://alamgirqazi.github.io"
 	},
 	"bin": {
-		"alam": "source/cli.js"
+		"alam": "source/cliapp.js"
 	},
 	"scripts": {
-		"start": "node source/cli.js"
+		"start": "node source/cliapp.js"
 	},
 	"engines": {
 		"node": ">=8"
